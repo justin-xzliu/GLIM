@@ -1,0 +1,19 @@
+name: glim
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - notebook=7.0.*
+  - numpy=1.26.4
+  - pandas=2.2*
+  - scipy=1.11.4
+  - rich=13.7.1
+  # - pytorch=2.3.1*
+  - transformers=4.40.*
+  - evaluate=0.4.*
+  - peft=0.12.0
+  - lightning=2.4.0
+  - torchmetrics=1.3.1
+  - einops=0.8.0
+  - timm=0.9.16
